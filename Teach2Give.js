@@ -25,21 +25,21 @@ for (let number = 1; number <= 100; number++) {
 // Write a program to generate the Fibonacci sequence up to 100.
 
 
-// const generateFibonacci=function(input) {
-//     let fibonacciSequence = [0, 1]; // Initialize with the first two Fibonacci numbers
-//     let i = 2; 
-//     while (true) {
-//         let nextFib = fibonacciSequence[i - 1] + fibonacciSequence[i - 2]; 
-//         if (nextFib > input) break; 
-//         fibonacciSequence.push(nextFib); 
-//         i++;
-//     }
-//     return fibonacciSequence;
-// }
+    const generateFibonacci=function(input) {
+     let fibonacciSequence = [0, 1]; // Initialize with the first two Fibonacci numbers
+     let i = 2; 
+     while (true) {
+         let nextFib = fibonacciSequence[i - 1] + fibonacciSequence[i - 2]; 
+         if (nextFib > input) break; 
+         fibonacciSequence.push(nextFib); 
+        i++;
+    }
+    return fibonacciSequence;
+ }
 
-// generateFibonacci()
+ generateFibonacci()
 
-// console.log(generateFibonacci(100));
+ console.log(generateFibonacci(100));
 
 
 
